@@ -1,0 +1,389 @@
+.contenedor{
+	max-width: 900px;
+	margin: auto;
+}
+
+header nav{
+	padding: 10px 0px 35px 0px;
+}
+
+header img{
+	height: 18px;
+}
+
+.menuprincipal{
+	float: right;
+	margin-right: 20px;
+	margin-top: 2px;
+}
+
+header a{
+	text-decoration: none;
+	color: #737B7F;
+}
+
+header a:hover{
+	color: #3E4245
+
+}
+
+.menuprincipal li{
+	display: inline-block;
+	padding-left: 10px;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: x-small;
+    font-weight: 600
+}
+
+.fondoheader{
+	background-image: url("../img/indexbanner.jpg");
+	background-position: center top;
+    background-size: cover; 
+    padding: 120px 0px 130px 50px;
+}
+
+.fondoheader article{
+	max-width: 350px;
+	color: white;
+}
+
+.fondoheader article h1{
+	font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: xx-large;
+    margin-bottom: 14px;
+}
+
+.fondoheader article p{
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    font-size: small;
+    line-height: 20px;
+}
+
+.headerform{
+    position: relative;
+    top: 160px;
+    left: 40px;
+    display: inline-flex;
+}
+
+.headerform input{
+	height: 60px;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.completar{
+	width: 660px;
+	padding-left:10px;
+	font-size: small;
+	border: 1px solid lightgrey;
+}
+
+.search{
+	width: 100px;
+	text-transform: uppercase;
+	font-size: x-small;
+	font-weight: bold;
+	border: none;
+    color: white;
+    letter-spacing: 1px;
+    background: #4297CC;
+}
+
+.sectionone{
+	margin: 100px 0px 0px 0px;
+}
+
+.sectionone article{	
+	display: inline-block;
+	width: 22%;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+.sectionone article img{
+	height: 60px;
+}
+
+.sectionone article h3{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: small;
+    margin: 13px 0px 16px 0px;
+    color: grey
+}
+
+.sectionone article p{
+	font-size: 11px;
+	color: #81898F;
+	font-weight: lighter;
+	line-height: 12px;
+}
+
+.sectionone .dots{
+	transform: rotate(90deg);
+    height: 20px;
+    margin: 10px;
+}
+
+.sectiontwo{
+	position: relative;
+	top:100px;
+}
+
+.threedots{
+	    display: block;
+	    margin: auto;
+}
+
+.tituloseccion{
+	display: block;
+	margin: auto;
+	text-align: center;
+	padding: 15px 100px 15px 100px;
+}
+
+.tituloseccion h2{
+	font-family: 'Raleway', sans-serif;
+	font-size: xx-large;
+    font-weight: 700;
+    color: #454A4C;
+    margin: 10px 0px 18px 0px;
+
+}
+
+.tituloseccion p{
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    font-size: medium;
+    color: #454A4C;
+}
+
+.sectiontwo article{
+	font-family: 'Open Sans', sans-serif;
+	padding-bottom: 20px;
+}
+
+.sectiontwo article h4{
+	text-transform: uppercase;
+	color: #454A4C;
+	font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.sectiontwo article p{
+	color: grey;
+	font-size: smaller;
+	line-height: 15px;
+}
+
+.articulos{
+	display: inline-block;
+    width: 33%;
+}
+
+.iphone{
+	width: 250px;
+    display: block;
+    margin: auto;
+}
+
+.imagenesarticleA{
+	float: right;
+	position: relative;
+    bottom: 20px;
+}
+
+.imagenesarticleB{
+	float: left;
+	position: relative;
+    bottom: 20px;
+}
+
+.a{
+	position: relative;
+    bottom: 150px;
+}
+
+.a .texto{
+	text-align: right;
+	padding-right: 75px;
+}
+
+.a article{
+	padding-bottom: 50px;
+}
+
+.b{
+	position: relative;
+    bottom: 150px;
+}
+
+.b .texto{
+	text-align: left;
+	padding-left: 75px;
+}
+
+.b article{
+	padding-bottom: 50px;
+}
+
+.sectionthree{
+	background-image: url("../img/pricing-bg.jpg");
+	padding:90px 0px 0px 0px;
+	max-height: 300px; 
+}
+
+.tablas{
+	text-align: center;
+	position: relative;
+	top: 100px;
+}
+
+.tablas article{
+	display: inline-block;
+	width: 140px;
+	background-color: white;
+	border: 2px solid #DEDEDE;
+	padding: 30px 15px 30px 15px;
+	margin: 0px 5px 0px 5px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.tablas h4{
+	text-transform: uppercase;
+	color: #707375;
+	font-size: xx-small;
+    letter-spacing: 1px;
+    font-weight: bolder
+}
+
+.tablas .price{
+	font-size: 28px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    padding: 20px 0px 5px 0px;
+    color: #32383c;
+}
+
+.tablas p{
+	font-size: xx-small;
+	font-weight: lighter;
+}
+
+.tablas header{
+	padding: 0px 0px 40px 0px;
+}
+
+.tablas div{
+	padding: 10px 0px 15px 0px;
+    line-height: 25px;
+}
+
+.tablas table{
+	display: inline-block;
+	margin: auto;
+}
+
+.tablas .tda{
+	font-size: 10px;
+	text-align: left;
+	padding-right: 16px;
+}
+
+.tablas .tdb{
+	font-size: 10px;
+	text-align: right;
+	font-weight: bold;
+}
+
+/*como elegir todos los first child de tr?*/
+
+.tablas input{
+	color: white;
+    background-color: #4297cc;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-size: xx-small;
+    letter-spacing: 1px;
+}
+
+table .cyan{
+	color: #31C6DE;
+}
+
+table .orange{
+	color:#DE8010;
+}
+
+table .red{
+	color:#DE3900;
+}
+
+table .redd{
+	color:#B50E00;
+}
+
+footer{
+	position: relative;
+    top: 300px;
+}
+
+.footera{
+	background-color: #64666e;
+	font-family: 'Open Sans', sans-serif;
+	padding:100px 0px 100px 0px;
+	text-align: center;
+}
+
+.footera h5, h4{
+	display: inline-block;
+}
+
+.footera h5{
+	color: white;
+	font-size: 24px;
+	font-weight: lighter;
+}
+
+.footera h4{
+	color:#31C6DE;
+	font-size: 32px;
+	font-weight: bold;
+	margin-left: 13px;
+	margin-right: 13px;
+}
+
+.footerb{
+	background-color: #36373d;
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+	padding: 20px 0px 20px 0px;
+}
+
+.footer p{
+	display: inline-block;
+}
+
+.footerb ul{
+	display: inline-block;
+	float: right;
+	position: relative;
+	bottom: 16px;
+}
+
+/* si no le ajusto la posicion a la fuerza me queda afuera */
+
+.footerb li{
+	display: inline-block;
+	margin-right: 5px;
+}
+
+.footerb a{
+	text-decoration: none;
+	color: white;
+}
