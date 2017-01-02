@@ -13,7 +13,6 @@ header img{
 
 .menuprincipal{
 	float: right;
-	margin-right: 20px;
 	margin-top: 2px;
 }
 
@@ -65,8 +64,7 @@ header a:hover{
 .headerform{
     position: relative;
     top: 160px;
-    left: 40px;
-    display: inline-flex;
+    text-align: center;
 }
 
 .headerform input{
@@ -91,6 +89,7 @@ header a:hover{
     color: white;
     letter-spacing: 1px;
     background: #4297CC;
+    margin-left: -4px
 }
 
 .sectionone{
@@ -386,4 +385,15 @@ footer{
 .footerb a{
 	text-decoration: none;
 	color: white;
+}
+
+
+/* AGREGADO EN TP CLASE 06 */
+
+.sectionone .icono{
+	transition: 1.3s ease-in-out;
+}
+
+.sectionone .icono:hover{
+	transform: scale(1.25);
 }
