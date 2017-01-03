@@ -16,6 +16,7 @@ header img{
 	margin-top: 2px;
 }
 
+
 header a{
 	text-decoration: none;
 	color: #737B7F;
@@ -39,11 +40,12 @@ header a:hover{
 	background-image: url("../img/indexbanner.jpg");
 	background-position: center top;
     background-size: cover; 
-    padding: 120px 0px 130px 50px;
+    padding: 120px 0px 130px 0px;
 }
 
 .fondoheader article{
 	max-width: 350px;
+	padding-left: 70px;
 	color: white;
 }
 
@@ -396,4 +398,162 @@ footer{
 
 .sectionone .icono:hover{
 	transform: scale(1.25);
+}
+
+
+
+@media (max-width: 1024px){
+	.menuprincipal{
+		float:none;
+		text-align: center;
+	}
+
+	.completar{
+		width: 500px;
+	}
+
+	.search{
+		width:80px;
+	}
+
+	.dots{
+		display:none;
+	}
+
+	.sectionone article{
+		width: 49%;
+	}
+
+	.sectionone article:last-child{
+		margin-top: 50px;
+	}
+
+	.tablas article{
+		width: 39%
+	}
+
+	.tablas article:last-child{
+		margin-top: 15px;
+	}
+
+	footer{
+		position: relative;
+		top:700px;
+	}
+
+	footer p{
+		text-align: center;
+	}
+
+	.footerb ul{
+		float:none;
+		display: block;
+		text-align: center;
+		position: relative;
+		top: 10px;
+	}
+
+	.footerb li{
+		display: block;
+		margin: 10px 0px 10px 0px;
+
+	}
+}
+
+@media (max-width: 850px){
+	.menuprincipal li{
+		display:block;
+		margin-top: 20px;
+	}
+
+	header img{
+		display:block;
+		margin:auto;
+	}
+
+	.fondoheader{
+		background-image: none;
+		padding: 0;
+	}
+
+	.fondoheader article{
+		display: none;
+	}
+
+	.headerform{
+		position: inherit;
+	}
+
+	.completar{
+		width: 380px;
+	}
+
+	.search{
+		width:65px;
+	}
+
+	.articulos{
+		display:block;
+		position:inherit;
+		margin:auto;
+		width: 100%;
+	}
+
+	.a{
+		position:inherit;
+	}
+
+	.b{
+		position: inherit;
+	}
+
+	.b article:first-child{
+		margin-top: 50px;
+	}
+
+	.a article:first-child{
+		margin-top: 50px;
+	}
+
+	.imagenesarticleA{
+		float: left;
+   		position: relative;
+    	bottom: 20px
+	}
+
+	.a .texto {
+    	text-align: left;
+    	padding-left: 75px;
+	}
+
+	.sectiontwo{
+		position: inherit;
+	}
+
+	.sectionone{
+		margin-bottom: 80px;
+	}
+
+}
+
+@media (max-width: 640px){
+
+	.sectionone{
+		margin: 20px;
+	}
+
+	.sectionone article{
+		width: 100%;
+		margin-top: 40px;
+	}
+	
+	.sectiontwo{
+		margin-top: 40px;
+	}
+
+	.sectionthree{
+		padding: 20px 0px 0px 0px;
+	}
+
+
 }
